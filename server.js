@@ -35,6 +35,34 @@ http.createServer(function(request, response) {
             response.end();
         });
     });
+    function stream_response( res, file_path, content_type ){
+        var readStream = fs.createReadStream(file_path);
+
+        readStream.on('data', function(data) {
+            var flushed = res.write(data);
+            // Pause the read stream when the write stream gets saturated
+            console.log( 'streaming data', file_path );
+            if(!flushed){
+                readStream.pause();
+            }
+        });
+
+        res.on('drain', function() {
+            // Resume the read stream when the write stream gets hungry
+            readStream.resume();
+        });
+
+        readStream.on('end', function() {
+            res.end();
+        });
+
+        readStream.on('error', function(err) {
+            console.error('Exception', err, 'while streaming', file_path);
+            res.end();
+        });
+
+        res.writeHead(200, {'Content-Type': content_type});
+    }
 }).listen(parseInt(port, 10));
 
 console.log("Static file server running at\n  => http://localhost:" + port + "/\nCTRL + C to shutdown");
