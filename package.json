@@ -1,0 +1,15 @@
+{
+  "name": "cruelangelsthesis",
+  "version": "0.0.0",
+  "description": "a javascript clone of 2048",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "heroku",
+    "evangelion"
+  ],
+  "author": "vargas",
+  "license": "ISC"
+}
