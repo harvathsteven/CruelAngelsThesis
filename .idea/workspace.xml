@@ -35,19 +35,8 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="84" selection-start="273" selection-end="273" vertical-scroll-proportion="0.19362187" vertical-offset="0" max-vertical-offset="878">
+            <state line="10" column="121" selection-start="310" selection-end="310" vertical-scroll-proportion="0.19362187" vertical-offset="0" max-vertical-offset="878">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loop.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/loop.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="3" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-              <folding>
-                <element signature="e#0#43#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -445,15 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/loop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/thesis.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="1" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="14654">
@@ -486,7 +466,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="84" selection-start="273" selection-end="273" vertical-scroll-proportion="0.19362187" vertical-offset="0" max-vertical-offset="878">
+        <state line="10" column="121" selection-start="310" selection-end="310" vertical-scroll-proportion="0.19362187" vertical-offset="0" max-vertical-offset="878">
           <folding />
         </state>
       </provider>
