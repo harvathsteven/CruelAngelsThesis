@@ -9,9 +9,11 @@
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+<script src="js/thesis.js"></script>
+<script src="js/jquery.js"></script>
 </head>
 <body>
-    <video autoplay muted id="video-bg" width="100%" height="100%">
+    <video muted autoplay loop class="video-bg" width="100%" height="100%">
         <source src="video/thesis.mp4" type="video/mp4">
     </video>
 <div class="container">
@@ -73,13 +75,5 @@
 </div>
 <script src="js/thesis.js"></script>
 <script src="js/jquery.js"></script>
-<script>
-    var myVideo = document.getElementById('video-bg');
-
-        myVideo.on('ended', function () {
-            this.currentTime = 0;
-        });
-
-</script>
 </body>
 </html>

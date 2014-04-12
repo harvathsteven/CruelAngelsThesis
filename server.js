@@ -34,6 +34,10 @@ http.createServer(function(request, response) {
             response.write(file, "binary");
             response.end();
         });
+
+        response.Headers.Add("Accept-Ranges", "bytes");
+        response.Headers.Add("Content-Range", rangeValue.Replace("=", " ") + (resource.Value.Length - 1).ToString() + "/" + resource.Value.Length.ToString());
+        response.StatusCode = HttpStatusCode.PartialContent;
     });
 }).listen(parseInt(port, 10));
 

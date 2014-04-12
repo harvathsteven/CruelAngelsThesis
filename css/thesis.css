@@ -10,7 +10,7 @@ body {
     width: 100%;
 }
 
-#video-bg {
+.video-bg {
     position: fixed;
     right: 0;
     bottom: 0;
